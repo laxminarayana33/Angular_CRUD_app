@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "kota",
+      "email": "kota@gmail.com",
+      "phone": "",
+      "gender": ""
+    },
+    {
+      "id": "2838",
+      "name": "laxmi",
+      "email": "narayana@gmail.com",
+      "phone": "89573829482",
+      "gender": "male"
+    },
+    {
+      "id": "d9b5",
+      "name": "pavan",
+      "email": "pavan@gmail.com",
+      "phone": "8976543210",
+      "gender": "male"
+    }
+  ]
+}
