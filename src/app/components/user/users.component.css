@@ -1,0 +1,103 @@
+.crud_app{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 14%;
+}
+.title{
+    text-align: center;
+}
+.crud_app_form_container{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.input_group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.input_group input{
+  width: 70%;
+  margin: 5px;
+  padding: 14px 12px;
+  font-size: 16px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  outline: none;
+  background: transparent;
+}
+.input_group label{
+    position: absolute;
+    top: 20px;
+    left: 19.5%;
+    padding: 0 6px;
+    background: white;
+    font-size: 18px;
+    transition: 0.25s ease;
+    transform: translate(-50px);
+    pointer-events: none;
+}
+.input_group input:focus + label, .input_group input:valid +label{
+    top: 0px;
+    font-size: 14px;
+    color: red;
+}
+.submit_button{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(0, 204, 255);
+    border-radius: 4px;
+    color: white;
+    border: none;
+    position: relative;
+    left: 75%;
+    top: 20px;
+}
+.user_table{
+    text-align: center;
+    margin: 25px;
+}
+.user_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+.list_table{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+.list_table, .list_table th, .list_table td{
+    border: 1px solid lightgray;
+}
+.list_table th, .list_table td{
+  padding: 10px;
+  text-align: center;
+}
+.edit_button{
+    border: none;
+    background-color: rgb(255, 176, 59);
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.delete_button{
+    background-color: red;
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
